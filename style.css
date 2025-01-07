@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stick+No+Bills:wght@200..800&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+:root {
+	--background-green: #35736e;
+	--background-white: #eff2f1;
+	--background-yellow: #ffd748;
+	--font-light: #cacaca;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	display: inline-block;
+}
+
+header {
+	background-color: var(--background-green);
+	padding: 9px 35px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+}
+
+.logo {
+	font-family: "Stick No Bills", serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 55px;
+	line-height: 82.23px;
+	color: var(--background-yellow);
+}
+
+.nav-right {
+	display: flex;
+	align-items: center;
+	gap: 110px;
+}
+
+.nav-links {
+	display: flex;
+	gap: 34px;
+	font-family: "Poppins", serif;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.nav-icons {
+	display: flex;
+	gap: 5px;
+	justify-content: space-between;
+}
