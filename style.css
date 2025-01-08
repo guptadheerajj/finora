@@ -153,7 +153,7 @@ main {
 /* typography */
 
 .large-heading-font {
-	font-family: Poppins;
+	font-family: "Poppins", serif;
 	font-size: 34px;
 	font-weight: 600;
 	line-height: 41px;
@@ -295,7 +295,7 @@ main {
 	width: 460px;
 }
 
-.point {
+.choose-point {
 	width: 248px;
 }
 
@@ -339,14 +339,14 @@ main {
 input {
 	padding: 12px 22px;
 	border-radius: 10px;
-	border: 1px solid #C4C4C4;
+	border: 1px solid #c4c4c4;
 
 	width: 262px;
 	height: 45.79px;
 }
 
 ::placeholder {
-	color: #2F2F2F;
+	color: #2f2f2f;
 }
 
 .newsletter-container form {
@@ -366,12 +366,64 @@ input {
 	border-radius: 10px;
 }
 
-.sofa-container{
+.sofa-container {
 	position: relative;
 }
 
 .sofa-footer {
 	position: absolute;
 	left: 136px;
-    top: -228px;
+	top: -228px;
+}
+
+/* modern design section */
+
+.modern-design-container {
+	padding: 99px 66px;
+	display: flex;
+}
+
+.modern-dotted {
+	top: -73px;
+	left: 46px;
+}
+.modern-images {
+	flex: 2 1 0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 12px;
+
+	position: relative;
+}
+
+.top {
+	position: absolute;
+	bottom: -32px;
+	right: 108px;
+
+	z-index: 5;
+}
+
+.modern-content {
+	align-self: center;
+	flex: 1 1 0;
+
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.modern-points {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	padding-left: 16px;
+	margin: 0;
+}
+
+.point {
+	list-style: circle;
+	list-style-position: outside;
+	width: 194px;
 }
