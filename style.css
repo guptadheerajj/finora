@@ -288,7 +288,7 @@ main {
 .ellipse {
 	position: absolute;
 	left: 14px;
-    top: 2px;
+	top: 2px;
 }
 
 .choose-main-para {
@@ -312,4 +312,66 @@ main {
 .dotted.choose-dotted {
 	left: 4px;
 	top: 0px;
+}
+
+/* Footer */
+.newsletter-section {
+	padding: 99px;
+	display: flex;
+}
+
+.newsletter-container,
+.sofa-container {
+	flex: 1 1 0;
+}
+
+.subscribe {
+	display: flex;
+	align-items: flex-end;
+	gap: 8px;
+	margin-bottom: 24px;
+}
+
+.subscribe span {
+	font-size: 18px;
+}
+
+input {
+	padding: 12px 22px;
+	border-radius: 10px;
+	border: 1px solid #C4C4C4;
+
+	width: 262px;
+	height: 45.79px;
+}
+
+::placeholder {
+	color: #2F2F2F;
+}
+
+.newsletter-container form {
+	display: flex;
+	gap: 16px;
+	align-items: flex-end;
+}
+
+.send-button {
+	background-color: var(--background-green);
+	width: 50px;
+	height: 47.7px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 10px;
+}
+
+.sofa-container{
+	position: relative;
+}
+
+.sofa-footer {
+	position: absolute;
+	left: 136px;
+    top: -228px;
 }
