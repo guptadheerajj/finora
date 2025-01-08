@@ -85,6 +85,10 @@ nav {
 
 /* Hero part */
 
+main {
+	background-color: var(--background-white);
+}
+
 .hero-container {
 	background-color: var(--background-green);
 	padding: 0 99px;
@@ -130,21 +134,25 @@ nav {
 	margin-bottom: 80px;
 }
 
-.couch-hero {
-	z-index: 2;
+.hero-image {
 	position: relative;
 }
 
-.dotted-hero {
-	position: absolute;
-	top: 188px;
-	left: 1174px;
+.above-dotted {
 	z-index: 1;
+	position: relative;
+}
+
+.dotted {
+	position: absolute;
+	right: -14px;
+	top: 75px;
+	z-index: 0;
 }
 
 /* typography */
 
-.short-heading {
+.large-heading-font {
 	font-family: Poppins;
 	font-size: 34px;
 	font-weight: 600;
@@ -152,6 +160,17 @@ nav {
 	text-align: left;
 	text-underline-position: from-font;
 	text-decoration-skip-ink: none;
+}
+
+.short-heading-font {
+	font-family: "Inter", serif;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 22px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #2f2f2f;
 }
 
 .product-details-font {
@@ -236,4 +255,61 @@ nav {
 	text-align: center;
 	text-underline-position: from-font;
 	text-decoration-skip-ink: none;
+}
+
+/* Choose us part */
+.choose-us-container {
+	padding: 99px;
+
+	display: flex;
+}
+
+.choose-content,
+.choose-right {
+	flex: 1 1 0;
+}
+
+.choose-content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.choose-points {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px 46px;
+}
+
+.choose-icon-container {
+	position: relative;
+}
+
+.ellipse {
+	position: absolute;
+	left: 14px;
+    top: 2px;
+}
+
+.choose-main-para {
+	width: 460px;
+}
+
+.point {
+	width: 248px;
+}
+
+.detail-para {
+	margin-top: 8px;
+}
+
+.choose-right {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.dotted.choose-dotted {
+	left: 4px;
+	top: 0px;
 }
