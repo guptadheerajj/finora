@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stick+No+Bills:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stick+No+Bills:wght@200..800&display=swap");
 
 html {
 	box-sizing: border-box;
@@ -140,4 +140,100 @@ nav {
 	top: 188px;
 	left: 1174px;
 	z-index: 1;
+}
+
+/* typography */
+
+.short-heading {
+	font-family: Poppins;
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 41px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.product-details-font {
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #6a6a6a;
+}
+
+/* main explore section */
+
+.explore-product-container {
+	display: flex;
+	padding: 99px;
+	gap: 120px;
+}
+
+.explore-heading {
+	font-family: "Poppins", serif;
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 51px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.explore-explore {
+	background-color: var(--background-green);
+	color: #ffffff;
+	margin-top: 12px;
+}
+
+.explore-cards {
+	display: flex;
+	gap: 42px;
+}
+
+.explore-card {
+	background-color: #35736e1a;
+	position: relative;
+
+	width: 296px;
+	padding: 46px;
+	height: 288.86px;
+	border-radius: 20px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+
+	box-shadow: 3px 5px 4px 0px #00000040;
+}
+
+.product-img-1,
+.product-img-2,
+.product-img-3 {
+	position: absolute;
+	bottom: 114px;
+}
+
+.name {
+	font-family: "Poppins", serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.price {
+	font-family: "Inter", serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
 }
