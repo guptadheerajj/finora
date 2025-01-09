@@ -379,8 +379,9 @@ input {
 /* modern design section */
 
 .modern-design-container {
-	padding: 99px 66px;
+	padding: 99px;
 	display: flex;
+	gap: 16px;
 }
 
 .modern-dotted {
@@ -388,7 +389,7 @@ input {
 	left: 46px;
 }
 .modern-images {
-	flex: 2 1 0;
+	flex: 3 1 0;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -400,14 +401,14 @@ input {
 .top {
 	position: absolute;
 	bottom: -32px;
-	right: 108px;
+	right: 44px;
 
 	z-index: 5;
 }
 
 .modern-content {
 	align-self: center;
-	flex: 1 1 0;
+	flex: 2 1 0;
 
 	display: flex;
 	flex-direction: column;
