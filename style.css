@@ -428,3 +428,129 @@ input {
 	list-style-position: outside;
 	width: 194px;
 }
+
+/* testimonial section */
+
+.testimonial-section {
+	padding: 99px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 36px;
+}
+
+.testimonial-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 100px;
+}
+
+.ttm-arrow {
+	width: 58px;
+	height: 58px;
+	border-radius: 50%;
+	background-color: #e2e4e3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.testimonial-container p {
+	width: 800px;
+
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.ttm-user {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+
+	margin-top: 100px;
+}
+
+.ttm-user-img {
+	border-radius: 50%;
+}
+
+/* recent-blog section */
+
+.recent-blog {
+	display: flex;
+	flex-direction: column;
+	gap: 86px;
+
+	padding: 0 162px 250px;
+}
+
+.blog-heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.view-post {
+	font-family: "Inter", serif;
+	font-size: 16px;
+	height: 30px;
+	font-weight: 600;
+}
+
+.view-post:hover{
+	border-bottom: 5px solid var(--background-yellow);
+}
+
+.blogs {
+	display: flex;
+	justify-content: space-between;
+}
+
+.blog {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+}
+
+.blog img {
+	border-radius: 10px;
+}
+
+.blog-desc-head {
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21.78px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.italics {
+	font-family: Inter;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 16.94px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.blog-owner {
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 16.94px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
